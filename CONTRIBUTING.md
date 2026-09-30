@@ -24,7 +24,7 @@
    - 改进文档质量和翻译
 
 ### 3. **参与讨论**
-   - 在 [Discussions](https://github.com/yourusername/awesome-agent-skills/discussions) 中分享想法
+   - 在 [Issues](https://github.com/Futao-Augenstern/awesome-agent-skills/issues) 中分享想法
    - 帮助解答其他用户的问题
 
 ---
@@ -114,7 +114,7 @@
 
 ```markdown
 - 找到正确的分类下
-- 按字母顺序排列（或按推荐程度排列
+- 按字母顺序排列（或按推荐程度排列）
 - 保持格式一致
 
 ```
@@ -150,7 +150,7 @@ PR 标题格式：
 - [ ] 其他
 
 ### 描述
-[详细描述你的改动
+[详细描述你的改动]
 
 ### 检查清单
 - [ ] 我已阅读贡献指南
@@ -181,8 +181,7 @@ PR 标题格式：
 ### 遇到问题怎么办？
 
 如遇到不可接受的行为，请通过以下方式联系维护者：
-- 发送邮件到 [维护者邮箱]
-- 在 Discord 中私信管理员
+- 通过 [GitHub Issues](https://github.com/Futao-Augenstern/awesome-agent-skills/issues) 反馈
 
 所有投诉都将被审查和调查，并将作出适当的回应。
 
@@ -191,8 +190,8 @@ PR 标题格式：
 ## ❓ 需要帮助？
 
 有任何问题，欢迎：
-- 开启一个 [Issue](https://github.com/yourusername/awesome-agent-skills/issues/new)
-- 在 [Discussions](https://github.com/yourusername/awesome-agent-skills/discussions) 中讨论
+- 开启一个 [Issue](https://github.com/Futao-Augenstern/awesome-agent-skills/issues/new)
+- 在 [Issues](https://github.com/Futao-Augenstern/awesome-agent-skills/issues) 中讨论
 - 加入我们的社区
 
 再次感谢你的贡献！🎉

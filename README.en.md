@@ -2,18 +2,18 @@
 
 # 🤖 awesome-agent-skills
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/awesome-agent-skills?style=social)](https://github.com/yourusername/awesome-agent-skills/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/awesome-agent-skills?style=social)](https://github.com/yourusername/awesome-agent-skills/network/members)
+[![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![GitHub Stars](https://img.shields.io/github/stars/Futao-Augenstern/awesome-agent-skills?style=social)](https://github.com/Futao-Augenstern/awesome-agent-skills/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Futao-Augenstern/awesome-agent-skills?style=social)](https://github.com/Futao-Augenstern/awesome-agent-skills/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
-[![Last Update](https://img.shields.io/badge/Last%20Update-July%202026-blue)]()
+[![Last Commit](https://img.shields.io/github/last-commit/Futao-Augenstern/awesome-agent-skills)](https://github.com/Futao-Augenstern/awesome-agent-skills/commits)
 
 **Curated Collection of AI Agent Skills · Plug-and-Play MCP Servers**
 
 > A carefully curated collection of AI Agent Skills ecosystem to help you build powerful agents quickly.
 
-[English](README.en.md) · [中文](README.md) · [Submit a Skill](https://github.com/yourusername/awesome-agent-skills/issues/new?assignees=&labels=&projects=&template=skill-submission.md&title=%5BSkill%5D+)
+[English](README.en.md) · [中文](README.md) · [Submit a Skill](https://github.com/Futao-Augenstern/awesome-agent-skills/issues/new?assignees=&labels=&projects=&template=skill-submission.md&title=%5BSkill%5D+)
 
 </div>
 
@@ -106,10 +106,10 @@ Simply browse the categories below to find the skills you need, click links for 
 |------|-------------|----------|-----|
 | [GitHub MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/github) | Manage GitHub repos, issues, PRs, code search | MCP Official | ⭐⭐⭐⭐⭐ |
 | [GitLab MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab) | GitLab repo management, CI/CD operations | MCP Official | ⭐⭐⭐⭐ |
-| [PostgreSQL MCP](https://github.com/neondatabase/mcp-server-postgres) | Query PostgreSQL directly, smart SQL generation | Neon | ⭐⭐⭐⭐⭐ |
+| [Neon MCP (PostgreSQL)](https://github.com/neondatabase/mcp-server-neon) | Query PostgreSQL directly, smart SQL generation | Neon Official | ⭐⭐⭐⭐⭐ |
 | [SQLite MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) | Local SQLite database query & management | MCP Official | ⭐⭐⭐⭐ |
 | [Docker MCP](https://github.com/ckreiling/mcp-server-docker) | Manage Docker containers, images, compose | Community | ⭐⭐⭐ |
-| [Sentry MCP](https://github.com/getsentry/mcp-server-sentry) | Sentry error monitoring & analysis | Sentry Official | ⭐⭐⭐⭐ |
+| [Sentry MCP](https://github.com/getsentry/sentry-mcp) | Sentry error monitoring & analysis | Sentry Official | ⭐⭐⭐⭐ |
 
 ### Productivity
 
@@ -117,19 +117,19 @@ Simply browse the categories below to find the skills you need, click links for 
 |------|-------------|----------|-----|
 | [Gmail MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/gmail) | Send/receive emails, search, label management | MCP Official | ⭐⭐⭐⭐⭐ |
 | [Google Calendar MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/google-calendar) | Calendar event management, scheduling | MCP Official | ⭐⭐⭐⭐ |
-| [Notion MCP](https://github.com/metalbear-co/mcp-server-notion) | Notion page read/write, database queries | Community | ⭐⭐⭐⭐⭐ |
+| [Notion MCP](https://developers.notion.com/docs/mcp) | Notion page read/write, database queries (official remote MCP) | Notion Official | ⭐⭐⭐⭐⭐ |
 | [Slack MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | Send messages, search, channel management | MCP Official | ⭐⭐⭐⭐ |
-| [Linear MCP](https://github.com/linear-ai/mcp-linear) | Linear project management, issue tracking | Linear Official | ⭐⭐⭐⭐ |
-| [Todoist MCP](https://github.com/saisandeep998/mcp-todoist-server) | Task management, todo sync | Community | ⭐⭐⭐ |
+| [Linear MCP](https://linear.app/docs/mcp) | Linear project management, issue tracking (official remote MCP) | Linear Official | ⭐⭐⭐⭐ |
+| [Todoist MCP](https://github.com/Doist/todoist-mcp) | Task management, todo sync | Doist Official | ⭐⭐⭐⭐ |
 
 ### Data & Search
 
 | Name | Description | Platform | ⭐ |
 |------|-------------|----------|-----|
 | [Brave Search MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) | Brave Search API integration | MCP Official | ⭐⭐⭐⭐⭐ |
-| [Tavily MCP](https://github.com/tavily-ai/mcp-tavily) | Search engine optimized for AI agents | Tavily Official | ⭐⭐⭐⭐⭐ |
-| [Perplexity MCP](https://github.com/leopiccionia/mcp-perplexity) | Perplexity AI search & Q&A | Community | ⭐⭐⭐⭐ |
-| [Pinecone MCP](https://github.com/pinecone-io/mcp-pinecone) | Pinecone vector database operations | Pinecone Official | ⭐⭐⭐⭐ |
+| [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | Search engine optimized for AI agents | Tavily Official | ⭐⭐⭐⭐⭐ |
+| [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity AI search & Q&A | Perplexity Official | ⭐⭐⭐⭐ |
+| [Pinecone MCP](https://github.com/pinecone-io/pinecone-mcp) | Pinecone vector database operations | Pinecone Official | ⭐⭐⭐⭐ |
 | [Wolfram Alpha MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/wolfram-alpha) | Math computation, scientific data query | MCP Official | ⭐⭐⭐⭐ |
 | [Weather MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/weather) | Global weather forecast query | MCP Official | ⭐⭐⭐ |
 
@@ -137,29 +137,29 @@ Simply browse the categories below to find the skills you need, click links for 
 
 | Name | Description | Platform | ⭐ |
 |------|-------------|----------|-----|
-| [Figma MCP](https://github.com/figma/mcp-figma) | Figma design file reading & analysis | Figma Official | ⭐⭐⭐⭐⭐ |
-| [Canva MCP](https://github.com/canva/mcp-canva) | Canva design automation & templates | Canva Official | ⭐⭐⭐⭐ |
-| [YouTube MCP](https://github.com/miraclesteven/mcp-youtube) | YouTube video search, caption extraction | Community | ⭐⭐⭐ |
+| [Figma MCP](https://github.com/figma/mcp-server-guide) | Figma design file reading & analysis | Figma Official | ⭐⭐⭐⭐⭐ |
+| [Canva MCP](https://www.canva.dev/docs/apps/mcp/) | Canva design automation & templates (remote MCP) | Canva Official | ⭐⭐⭐⭐ |
+| [YouTube MCP](https://github.com/kevinwatt/yt-dlp-mcp) | YouTube video search, caption extraction | Community | ⭐⭐⭐⭐ |
 | [Markdown MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/markdown) | Markdown file read/write & processing | MCP Official | ⭐⭐⭐⭐ |
-| [PDF MCP](https://github.com/rowickib/mcp-pdf-tools) | PDF reading, parsing, text extraction | Community | ⭐⭐⭐ |
+| [MarkItDown MCP](https://github.com/microsoft/markitdown) | Convert PDF, Office, images to Markdown (MCP support) | Microsoft Official | ⭐⭐⭐⭐⭐ |
 
 ### Cloud & DevOps
 
 | Name | Description | Platform | ⭐ |
 |------|-------------|----------|-----|
-| [AWS MCP](https://github.com/awslabs/mcp-server-aws) | AWS service operations (EC2, S3, Lambda, etc.) | AWS Official | ⭐⭐⭐⭐⭐ |
-| [GCP MCP](https://github.com/googleapis/mcp-google-cloud) | Google Cloud platform service integration | Google Official | ⭐⭐⭐⭐ |
-| [Vercel MCP](https://github.com/vercel/mcp-vercel) | Vercel deployment, project management | Vercel Official | ⭐⭐⭐⭐ |
-| [Netlify MCP](https://github.com/netlify/mcp-netlify) | Netlify deployment & site management | Netlify Official | ⭐⭐⭐⭐ |
-| [Kubernetes MCP](https://github.com/everettraven/mcp-k8s) | K8s cluster management & resource ops | Community | ⭐⭐⭐⭐ |
-| [Terraform MCP](https://github.com/weagle08/mcp-terraform) | Terraform infrastructure as code | Community | ⭐⭐⭐ |
+| [AWS MCP](https://github.com/awslabs/mcp) | AWS service operations (EC2, S3, Lambda, etc.) | AWS Official | ⭐⭐⭐⭐⭐ |
+| [GCP MCP](https://github.com/google/mcp) | Google Cloud platform service integration | Google Official | ⭐⭐⭐⭐ |
+| [Vercel MCP](https://vercel.com/docs/mcp) | Vercel deployment, project management (remote MCP) | Vercel Official | ⭐⭐⭐⭐ |
+| [Netlify MCP](https://github.com/netlify/netlify-mcp) | Netlify deployment & site management | Netlify Official | ⭐⭐⭐⭐ |
+| [Kubernetes MCP](https://github.com/flux159/mcp-server-kubernetes) | K8s cluster management & resource ops | Community | ⭐⭐⭐⭐ |
+| [Terraform MCP](https://github.com/hashicorp/terraform-mcp-server) | Terraform infrastructure as code | HashiCorp Official | ⭐⭐⭐⭐ |
 
 ### Lifestyle
 
 | Name | Description | Platform | ⭐ |
 |------|-------------|----------|-----|
-| [Spotify MCP](https://github.com/RowanAberdeen/mcp-spotify) | Spotify music playback, playlist management | Community | ⭐⭐⭐⭐ |
-| [Strava MCP](https://github.com/mmazzarolo/mcp-strava) | Strava workout data analysis | Community | ⭐⭐⭐ |
+| [Spotify MCP](https://github.com/varunneal/spotify-mcp) | Spotify music playback, playlist management | Community | ⭐⭐⭐⭐ |
+| [Strava MCP](https://github.com/r-huijts/strava-mcp) | Strava workout data analysis | Community | ⭐⭐⭐⭐ |
 | [Shopping List MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/shopping-list) | Shopping list management | MCP Official | ⭐⭐ |
 | [Reminder MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/reminders) | Reminder & task management | MCP Official | ⭐⭐⭐ |
 
@@ -177,7 +177,7 @@ Simply browse the categories below to find the skills you need, click links for 
 | [AutoGPT](https://agpt.co/) | ✅ Plugin system | ⭐⭐⭐⭐ | Autonomous agents |
 | [Dify](https://dify.ai/) | ✅ Tool nodes | ⭐⭐⭐⭐⭐ | Visual orchestration, enterprise |
 | [OpenClaw](https://github.com/openclaw/openclaw) | ✅ Native | ⭐⭐⭐⭐⭐ | Full-stack agent framework |
-| [superpowers](https://github.com/evilfactorylabs/superpowers) | ✅ Agent Harness | ⭐⭐⭐⭐ | Lightweight agent framework |
+| [superpowers](https://github.com/obra/superpowers) | ✅ Agent Harness | ⭐⭐⭐⭐⭐ | Lightweight agent framework |
 | [CopilotKit](https://github.com/CopilotKit/CopilotKit) | ✅ MCP support | ⭐⭐⭐⭐ | Frontend AI Copilot |
 
 ---
@@ -190,14 +190,14 @@ Simply browse the categories below to find the skills you need, click links for 
 - [Anthropic MCP Guide](https://docs.anthropic.com/en/docs/agents-and-tools/model-context-protocol) - Claude MCP integration guide
 
 ### Tutorials
-- [MCP Quick Start: Add Tools to Claude in 5 Minutes](https://example.com/mcp-quickstart)
-- [Build Your First MCP Server from Scratch](https://example.com/build-mcp-server)
-- [Agent Skills Design Patterns & Best Practices](https://example.com/agent-skills-patterns)
+- [MCP Official Quickstart](https://modelcontextprotocol.io/quickstart) - Build and connect your first MCP server in 5 minutes
+- [Build an MCP Server from Scratch](https://modelcontextprotocol.io/docs/develop/build-server) - Official MCP server build guide
+- [Equipping Agents for the Real World with Agent Skills](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Anthropic engineering blog
 
 ### Deep Dives
-- [Why MCP is the App Store for AI Agents?](https://example.com/mcp-app-store)
-- [Past, Present, and Future of Agent Tool Calling](https://example.com/agent-tools-history)
-- [From Function Calling to MCP: Agent Tool Ecosystem Evolution](https://example.com/function-calling-to-mcp)
+- [Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) - Official Anthropic announcement
+- [Tool Use & Agent Protocol History & Timeline](https://hidekazu-konishi.com/entry/tool_use_and_agent_protocol_history_and_timeline.html) - From early tool calling to MCP
+- [MCP vs Function Calling](https://qveris.ai/zh-cn/guides/mcp-vs-function-calling) - Agent tool ecosystem evolution analysis
 
 ---
 
@@ -239,9 +239,9 @@ We welcome all forms of contribution! Whether it's adding new MCP servers, impro
 
 ### How to Contribute
 
-1. **Submit a new skill**: Use our [Issue template](https://github.com/yourusername/awesome-agent-skills/issues/new?assignees=&labels=&projects=&template=skill-submission.md&title=%5BSkill%5D+)
+1. **Submit a new skill**: Use our [Issue template](https://github.com/Futao-Augenstern/awesome-agent-skills/issues/new?assignees=&labels=&projects=&template=skill-submission.md&title=%5BSkill%5D+)
 2. **Direct PR**: Fork this repo, make changes, submit a Pull Request
-3. **Discuss ideas**: Share thoughts in [Discussions](https://github.com/yourusername/awesome-agent-skills/discussions)
+3. **Discuss ideas**: Share thoughts in [Issues](https://github.com/Futao-Augenstern/awesome-agent-skills/issues)
 
 ### Inclusion Criteria
 
@@ -255,8 +255,8 @@ We welcome all forms of contribution! Whether it's adding new MCP servers, impro
 
 Thanks to everyone who has contributed to this project!
 
-<a href="https://github.com/yourusername/awesome-agent-skills/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=yourusername/awesome-agent-skills" />
+<a href="https://github.com/Futao-Augenstern/awesome-agent-skills/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Futao-Augenstern/awesome-agent-skills" />
 </a>
 
 ---
@@ -265,16 +265,7 @@ Thanks to everyone who has contributed to this project!
 
 If you find this project helpful, please give it a ⭐ Star!
 
-```
-Star Growth Trend (Target):
-
-★★★★★★★★★★ 10K  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ TARGET
-★★★★★☆☆☆☆☆  5K  ━━━━━━━━━━━━━━━━━━━━
-★★★☆☆☆☆☆☆☆  3K  ━━━━━━━━━━━━━
-★★☆☆☆☆☆☆☆☆  2K  ━━━━━━━━━━
-★☆☆☆☆☆☆☆☆☆  1K  ━━━━━
-☆☆☆☆☆☆☆☆☆☆   0  ━
-```
+[![Star History Chart](https://api.star-history.com/svg?repos=Futao-Augenstern/awesome-agent-skills&type=Date)](https://star-history.com/#Futao-Augenstern/awesome-agent-skills&Date)
 
 ---
 
@@ -282,6 +273,6 @@ Star Growth Trend (Target):
 
 **Made with ❤️ by the AI Agent Community**
 
-[⭐ Star](https://github.com/yourusername/awesome-agent-skills) · [📝 Issue](https://github.com/yourusername/awesome-agent-skills/issues) · [💬 Discussion](https://github.com/yourusername/awesome-agent-skills/discussions)
+[⭐ Star](https://github.com/Futao-Augenstern/awesome-agent-skills) · [📝 Issue](https://github.com/Futao-Augenstern/awesome-agent-skills/issues)
 
 </div>
