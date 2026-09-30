@@ -20,8 +20,8 @@
 |-----------|------|---------|
 | **GitHub MCP** | 代码仓库管理、PR 创建、Issue 跟踪 | `npx @modelcontextprotocol/server-github` |
 | **Filesystem MCP** | 本地文件读写、项目结构管理 | `npx @modelcontextprotocol/server-filesystem /path/to/project` |
-| **PostgreSQL MCP** | 数据库设计、查询优化、数据操作 | `npx @neondatabase/mcp-server-postgres` |
-| **Vercel MCP** | 前端部署、预览环境 | `npx @vercel/mcp-vercel` |
+| **Neon MCP** | 数据库设计、查询优化、数据操作 | `npx @neondatabase/mcp-server-neon` |
+| **Vercel MCP** | 前端部署、预览环境 | 远程 MCP（[vercel.com/docs/mcp](https://vercel.com/docs/mcp)） |
 | **Docker MCP** | 容器化部署、本地环境 | 社区开源 |
 
 ## 📋 能力清单
