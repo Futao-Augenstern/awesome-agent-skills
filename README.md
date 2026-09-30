@@ -2,18 +2,18 @@
 
 # 🤖 awesome-agent-skills
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/awesome-agent-skills?style=social)](https://github.com/yourusername/awesome-agent-skills/stargazers)
-[![GitHub Forks](https://img.shields.io/github/forks/yourusername/awesome-agent-skills?style=social)](https://github.com/yourusername/awesome-agent-skills/network/members)
+[![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@main/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![GitHub Stars](https://img.shields.io/github/stars/Futao-Augenstern/awesome-agent-skills?style=social)](https://github.com/Futao-Augenstern/awesome-agent-skills/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/Futao-Augenstern/awesome-agent-skills?style=social)](https://github.com/Futao-Augenstern/awesome-agent-skills/network/members)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
-[![Last Update](https://img.shields.io/badge/Last%20Update-July%202026-blue)]()
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Last Commit](https://img.shields.io/github/last-commit/Futao-Augenstern/awesome-agent-skills)](https://github.com/Futao-Augenstern/awesome-agent-skills/commits)
 
 **精选 AI Agent 技能合集 · 即插即用的 MCP 服务器大全**
 
 > 一个精心策划的 AI Agent Skills 生态系统合集，帮助你快速构建强大的智能体。
 
-[English](README.en.md) · [中文](README.md) · [提交技能](https://github.com/yourusername/awesome-agent-skills/issues/new?assignees=&labels=&projects=&template=skill-submission.md&title=%5BSkill%5D+)
+[English](README.en.md) · [中文](README.md) · [提交技能](https://github.com/Futao-Augenstern/awesome-agent-skills/issues/new?assignees=&labels=&projects=&template=skill-submission.md&title=%5BSkill%5D+)
 
 </div>
 
@@ -73,7 +73,7 @@
 
 ```bash
 # 1. 安装 MCP 服务器（以 filesystem 为例）
-npx @modelcontextprotocol/server-filesystem /path/to/workspace
+npx -y @modelcontextprotocol/server-filesystem /path/to/workspace
 
 # 2. 配置 claude_desktop_config.json
 # 将服务器配置添加到你的配置文件中
@@ -82,14 +82,15 @@ npx @modelcontextprotocol/server-filesystem /path/to/workspace
 ### 方式二：在代码中使用
 
 ```python
-# 使用 LangChain + MCP
+# 使用 LangChain + MCP（以 filesystem 为例）
 from langchain_mcp import MCPToolkit
 
 toolkit = MCPToolkit.from_command(
     command="npx",
-    args=["-y", "@modelcontextprotocol/server-github"]
+    args=["-y", "@modelcontextprotocol/server-filesystem", "/path/to/workspace"]
 )
 tools = toolkit.get_tools()
+# GitHub 官方 MCP 现为远程服务器：https://api.githubcopilot.com/mcp/
 ```
 
 ### 方式三：浏览本仓库
@@ -106,10 +107,10 @@ tools = toolkit.get_tools()
 |------|------|-----------|-----|
 | [GitHub MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/github) | 管理 GitHub 仓库、Issue、PR、代码搜索 | MCP 官方 | ⭐⭐⭐⭐⭐ |
 | [GitLab MCP Server](https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab) | GitLab 仓库管理、CI/CD 操作 | MCP 官方 | ⭐⭐⭐⭐ |
-| [PostgreSQL MCP](https://github.com/neondatabase/mcp-server-postgres) | 直接查询 PostgreSQL 数据库，智能 SQL 生成 | Neon | ⭐⭐⭐⭐⭐ |
+| [Neon MCP (PostgreSQL)](https://github.com/neondatabase/mcp-server-neon) | 直接查询 PostgreSQL 数据库，智能 SQL 生成 | Neon 官方 | ⭐⭐⭐⭐⭐ |
 | [SQLite MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/sqlite) | 本地 SQLite 数据库查询与管理 | MCP 官方 | ⭐⭐⭐⭐ |
 | [Docker MCP](https://github.com/ckreiling/mcp-server-docker) | 管理 Docker 容器、镜像、compose | 社区 | ⭐⭐⭐ |
-| [Sentry MCP](https://github.com/getsentry/mcp-server-sentry) | Sentry 错误监控与分析 | Sentry 官方 | ⭐⭐⭐⭐ |
+| [Sentry MCP](https://github.com/getsentry/sentry-mcp) | Sentry 错误监控与分析 | Sentry 官方 | ⭐⭐⭐⭐ |
 
 ### 生产力
 
@@ -117,19 +118,19 @@ tools = toolkit.get_tools()
 |------|------|-----------|-----|
 | [Gmail MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/gmail) | 收发邮件、搜索、标签管理 | MCP 官方 | ⭐⭐⭐⭐⭐ |
 | [Google Calendar MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/google-calendar) | 日历事件管理、日程安排 | MCP 官方 | ⭐⭐⭐⭐ |
-| [Notion MCP](https://github.com/metalbear-co/mcp-server-notion) | Notion 页面读写、数据库查询 | 社区 | ⭐⭐⭐⭐⭐ |
+| [Notion MCP](https://developers.notion.com/docs/mcp) | Notion 页面读写、数据库查询（官方远程 MCP） | Notion 官方 | ⭐⭐⭐⭐⭐ |
 | [Slack MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | 发送消息、搜索、频道管理 | MCP 官方 | ⭐⭐⭐⭐ |
-| [Linear MCP](https://github.com/linear-ai/mcp-linear) | Linear 项目管理、Issue 追踪 | Linear 官方 | ⭐⭐⭐⭐ |
-| [Todoist MCP](https://github.com/saisandeep998/mcp-todoist-server) | 任务管理、待办事项同步 | 社区 | ⭐⭐⭐ |
+| [Linear MCP](https://linear.app/docs/mcp) | Linear 项目管理、Issue 追踪（官方远程 MCP） | Linear 官方 | ⭐⭐⭐⭐ |
+| [Todoist MCP](https://github.com/Doist/todoist-mcp) | 任务管理、待办事项同步 | Doist 官方 | ⭐⭐⭐⭐ |
 
 ### 数据与搜索
 
 | 名称 | 描述 | 平台/框架 | ⭐ |
 |------|------|-----------|-----|
 | [Brave Search MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/brave-search) | Brave 搜索引擎 API 集成 | MCP 官方 | ⭐⭐⭐⭐⭐ |
-| [Tavily MCP](https://github.com/tavily-ai/mcp-tavily) | 专为 AI Agent 优化的搜索引擎 | Tavily 官方 | ⭐⭐⭐⭐⭐ |
-| [Perplexity MCP](https://github.com/leopiccionia/mcp-perplexity) | Perplexity AI 搜索与问答 | 社区 | ⭐⭐⭐⭐ |
-| [Pinecone MCP](https://github.com/pinecone-io/mcp-pinecone) | Pinecone 向量数据库操作 | Pinecone 官方 | ⭐⭐⭐⭐ |
+| [Tavily MCP](https://github.com/tavily-ai/tavily-mcp) | 专为 AI Agent 优化的搜索引擎 | Tavily 官方 | ⭐⭐⭐⭐⭐ |
+| [Perplexity MCP](https://github.com/perplexityai/modelcontextprotocol) | Perplexity AI 搜索与问答 | Perplexity 官方 | ⭐⭐⭐⭐ |
+| [Pinecone MCP](https://github.com/pinecone-io/pinecone-mcp) | Pinecone 向量数据库操作 | Pinecone 官方 | ⭐⭐⭐⭐ |
 | [Wolfram Alpha MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/wolfram-alpha) | 数学计算、科学数据查询 | MCP 官方 | ⭐⭐⭐⭐ |
 | [Weather MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/weather) | 全球天气预报查询 | MCP 官方 | ⭐⭐⭐ |
 
@@ -137,29 +138,29 @@ tools = toolkit.get_tools()
 
 | 名称 | 描述 | 平台/框架 | ⭐ |
 |------|------|-----------|-----|
-| [Figma MCP](https://github.com/figma/mcp-figma) | Figma 设计文件读取与分析 | Figma 官方 | ⭐⭐⭐⭐⭐ |
-| [Canva MCP](https://github.com/canva/mcp-canva) | Canva 设计自动化与模板 | Canva 官方 | ⭐⭐⭐⭐ |
-| [YouTube MCP](https://github.com/miraclesteven/mcp-youtube) | YouTube 视频搜索、字幕提取 | 社区 | ⭐⭐⭐ |
+| [Figma MCP](https://github.com/figma/mcp-server-guide) | Figma 设计文件读取与分析 | Figma 官方 | ⭐⭐⭐⭐⭐ |
+| [Canva MCP](https://www.canva.dev/docs/apps/mcp/) | Canva 设计自动化与模板（远程 MCP） | Canva 官方 | ⭐⭐⭐⭐ |
+| [YouTube MCP](https://github.com/kevinwatt/yt-dlp-mcp) | YouTube 视频搜索、字幕提取 | 社区 | ⭐⭐⭐⭐ |
 | [Markdown MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/markdown) | Markdown 文件读写与处理 | MCP 官方 | ⭐⭐⭐⭐ |
-| [PDF MCP](https://github.com/rowickib/mcp-pdf-tools) | PDF 读取、解析、文本提取 | 社区 | ⭐⭐⭐ |
+| [MarkItDown MCP](https://github.com/microsoft/markitdown) | PDF、Office、图片等文件转 Markdown（支持 MCP） | Microsoft 官方 | ⭐⭐⭐⭐⭐ |
 
 ### 云服务与 DevOps
 
 | 名称 | 描述 | 平台/框架 | ⭐ |
 |------|------|-----------|-----|
-| [AWS MCP](https://github.com/awslabs/mcp-server-aws) | AWS 服务操作（EC2、S3、Lambda 等） | AWS 官方 | ⭐⭐⭐⭐⭐ |
-| [GCP MCP](https://github.com/googleapis/mcp-google-cloud) | Google Cloud 平台服务集成 | Google 官方 | ⭐⭐⭐⭐ |
-| [Vercel MCP](https://github.com/vercel/mcp-vercel) | Vercel 部署、项目管理 | Vercel 官方 | ⭐⭐⭐⭐ |
-| [Netlify MCP](https://github.com/netlify/mcp-netlify) | Netlify 部署与站点管理 | Netlify 官方 | ⭐⭐⭐⭐ |
-| [Kubernetes MCP](https://github.com/everettraven/mcp-k8s) | K8s 集群管理与资源操作 | 社区 | ⭐⭐⭐⭐ |
-| [Terraform MCP](https://github.com/weagle08/mcp-terraform) | Terraform 基础设施即代码 | 社区 | ⭐⭐⭐ |
+| [AWS MCP](https://github.com/awslabs/mcp) | AWS 服务操作（EC2、S3、Lambda 等） | AWS 官方 | ⭐⭐⭐⭐⭐ |
+| [GCP MCP](https://github.com/google/mcp) | Google Cloud 平台服务集成 | Google 官方 | ⭐⭐⭐⭐ |
+| [Vercel MCP](https://vercel.com/docs/mcp) | Vercel 部署、项目管理（远程 MCP） | Vercel 官方 | ⭐⭐⭐⭐ |
+| [Netlify MCP](https://github.com/netlify/netlify-mcp) | Netlify 部署与站点管理 | Netlify 官方 | ⭐⭐⭐⭐ |
+| [Kubernetes MCP](https://github.com/flux159/mcp-server-kubernetes) | K8s 集群管理与资源操作 | 社区 | ⭐⭐⭐⭐ |
+| [Terraform MCP](https://github.com/hashicorp/terraform-mcp-server) | Terraform 基础设施即代码 | HashiCorp 官方 | ⭐⭐⭐⭐ |
 
 ### 生活助手
 
 | 名称 | 描述 | 平台/框架 | ⭐ |
 |------|------|-----------|-----|
-| [Spotify MCP](https://github.com/RowanAberdeen/mcp-spotify) | Spotify 音乐播放、播放列表管理 | 社区 | ⭐⭐⭐⭐ |
-| [Strava MCP](https://github.com/mmazzarolo/mcp-strava) | Strava 运动数据分析 | 社区 | ⭐⭐⭐ |
+| [Spotify MCP](https://github.com/varunneal/spotify-mcp) | Spotify 音乐播放、播放列表管理 | 社区 | ⭐⭐⭐⭐ |
+| [Strava MCP](https://github.com/r-huijts/strava-mcp) | Strava 运动数据分析 | 社区 | ⭐⭐⭐⭐ |
 | [Shopping List MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/shopping-list) | 购物清单管理 | MCP 官方 | ⭐⭐ |
 | [Reminder MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/reminders) | 提醒事项管理 | MCP 官方 | ⭐⭐⭐ |
 
@@ -177,7 +178,7 @@ tools = toolkit.get_tools()
 | [AutoGPT](https://agpt.co/) | ✅ 插件系统 | ⭐⭐⭐⭐ | 自主 Agent |
 | [Dify](https://dify.ai/) | ✅ 工具节点 | ⭐⭐⭐⭐⭐ | 可视化编排、企业级应用 |
 | [OpenClaw](https://github.com/openclaw/openclaw) | ✅ 原生支持 | ⭐⭐⭐⭐⭐ | 全平台 Agent 框架 |
-| [superpowers](https://github.com/evilfactorylabs/superpowers) | ✅ Agent Harness | ⭐⭐⭐⭐ | 轻量级 Agent 框架 |
+| [superpowers](https://github.com/obra/superpowers) | ✅ Agent Harness | ⭐⭐⭐⭐⭐ | 轻量级 Agent 框架 |
 | [CopilotKit](https://github.com/CopilotKit/CopilotKit) | ✅ MCP 支持 | ⭐⭐⭐⭐ | 前端 AI Copilot |
 
 ---
@@ -190,14 +191,14 @@ tools = toolkit.get_tools()
 - [Anthropic MCP 教程](https://docs.anthropic.com/en/docs/agents-and-tools/model-context-protocol) - Claude MCP 集成指南
 
 ### 入门教程
-- [MCP 快速上手：5 分钟给 Claude 装工具](https://example.com/mcp-quickstart)
-- [从零构建你的第一个 MCP 服务器](https://example.com/build-mcp-server)
-- [Agent Skills 设计模式与最佳实践](https://example.com/agent-skills-patterns)
+- [MCP 官方快速入门](https://modelcontextprotocol.io/quickstart) - 5 分钟构建并连接你的第一个 MCP 服务器
+- [从零构建 MCP 服务器](https://modelcontextprotocol.io/docs/develop/build-server) - MCP 官方服务器构建指南
+- [Agent Skills 设计模式与最佳实践](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) - Anthropic 官方工程博客
 
 ### 深度文章
-- [为什么 MCP 是 AI Agent 的 App Store？](https://example.com/mcp-app-store)
-- [Agent 工具调用的过去、现在与未来](https://example.com/agent-tools-history)
-- [从 Function Calling 到 MCP：Agent 工具生态演进](https://example.com/function-calling-to-mcp)
+- [Introducing the Model Context Protocol](https://www.anthropic.com/news/model-context-protocol) - Anthropic 官方发布公告
+- [Agent 工具调用与协议演进时间线](https://hidekazu-konishi.com/entry/tool_use_and_agent_protocol_history_and_timeline.html) - 从早期工具调用到 MCP 的完整历史
+- [MCP 与 Function Calling 对比](https://qveris.ai/zh-cn/guides/mcp-vs-function-calling) - Agent 工具生态演进深度分析
 
 ---
 
@@ -239,9 +240,9 @@ tools = toolkit.get_tools()
 
 ### 如何贡献
 
-1. **提交新技能**：通过 [Issue 模板](https://github.com/yourusername/awesome-agent-skills/issues/new?assignees=&labels=&projects=&template=skill-submission.md&title=%5BSkill%5D+) 提交
+1. **提交新技能**：通过 [Issue 模板](https://github.com/Futao-Augenstern/awesome-agent-skills/issues/new?assignees=&labels=&projects=&template=skill-submission.md&title=%5BSkill%5D+) 提交
 2. **直接 PR**：Fork 本仓库，修改后提交 Pull Request
-3. **讨论建议**：在 [Discussions](https://github.com/yourusername/awesome-agent-skills/discussions) 中分享想法
+3. **讨论建议**：在 [Issues](https://github.com/Futao-Augenstern/awesome-agent-skills/issues) 中分享想法
 
 ### 收录标准
 
@@ -255,8 +256,8 @@ tools = toolkit.get_tools()
 
 感谢所有为这个项目做出贡献的人！
 
-<a href="https://github.com/yourusername/awesome-agent-skills/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=yourusername/awesome-agent-skills" />
+<a href="https://github.com/Futao-Augenstern/awesome-agent-skills/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Futao-Augenstern/awesome-agent-skills" />
 </a>
 
 ---
@@ -265,16 +266,7 @@ tools = toolkit.get_tools()
 
 如果你觉得这个项目有帮助，请给一个 ⭐ Star 支持！
 
-```
-Star 增长趋势（目标）：
-
-★★★★★★★★★★ 10K  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 目标
-★★★★★☆☆☆☆☆  5K  ━━━━━━━━━━━━━━━━━━━━
-★★★☆☆☆☆☆☆☆  3K  ━━━━━━━━━━━━━
-★★☆☆☆☆☆☆☆☆  2K  ━━━━━━━━━━
-★☆☆☆☆☆☆☆☆☆  1K  ━━━━━
-☆☆☆☆☆☆☆☆☆☆   0  ━
-```
+[![Star History Chart](https://api.star-history.com/svg?repos=Futao-Augenstern/awesome-agent-skills&type=Date)](https://star-history.com/#Futao-Augenstern/awesome-agent-skills&Date)
 
 ---
 
@@ -282,6 +274,6 @@ Star 增长趋势（目标）：
 
 **Made with ❤️ by the AI Agent Community**
 
-[给个 Star ⭐](https://github.com/yourusername/awesome-agent-skills) · [提交 Issue](https://github.com/yourusername/awesome-agent-skills/issues) · [讨论交流](https://github.com/yourusername/awesome-agent-skills/discussions)
+[给个 Star ⭐](https://github.com/Futao-Augenstern/awesome-agent-skills) · [提交 Issue](https://github.com/Futao-Augenstern/awesome-agent-skills/issues)
 
 </div>
