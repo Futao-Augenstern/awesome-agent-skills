@@ -72,7 +72,7 @@
 - **Notion MCP** - Notion 数据库与页面
 
 ### 笔记与文档
-- **Notion MCP** - Notion 页面读写（metalbear-co）
+- **Notion MCP** - Notion 页面读写（官方远程 MCP）
 - **Confluence MCP** - Confluence 文档管理
 - **Markdown MCP** - Markdown 文件处理（官方）
 - **Obsidian MCP** - Obsidian 笔记操作
@@ -232,8 +232,8 @@
 
 知道其他优秀的 MCP 服务器？欢迎提交！
 
-- 通过 [Issue 模板](https://github.com/yourusername/awesome-agent-skills/issues/new?assignees=&labels=&projects=&template=skill-submission.md&title=%5BSkill%5D+) 提交
-- 或者直接 [提交 PR](https://github.com/yourusername/awesome-agent-skills/pulls)
+- 通过 [Issue 模板](https://github.com/Futao-Augenstern/awesome-agent-skills/issues/new?assignees=&labels=&projects=&template=skill-submission.md&title=%5BSkill%5D+) 提交
+- 或者直接 [提交 PR](https://github.com/Futao-Augenstern/awesome-agent-skills/pulls)
 
 ---
 
