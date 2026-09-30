@@ -32,7 +32,7 @@
   - [生活助手](#生活助手)
 - [🛠️ Agent 框架集成](#️-agent-框架集成)
 - [📚 学习资源](#-学习资源)
-- [🎯 精选 Skill 模板](#-精选-skill-模板)
+- [🎁 现成 Agent Skills 精选](#-现成-agent-skills-精选)
 - [🤝 贡献指南](#-贡献指南)
 - [⭐ Star 历史](#-star-历史)
 
@@ -202,35 +202,31 @@ tools = toolkit.get_tools()
 
 ---
 
-## 🎯 精选 Skill 模板
+## 🎁 现成 Agent Skills 精选
 
-我们提供了一些即用型 Skill 模板，复制即可使用：
+你想找**别人已经做好、可直接拿来用**的 Agent Skills？不必自己从零写。下面是最值得关注的官方与社区来源：
 
-### 📝 代码审查助手
-> 自动审查 PR，检查代码风格、潜在 bug、性能问题
->
-> **所需 MCP**：GitHub、Git
-> **[查看模板 →](skills/code-reviewer.md)**
+### 📚 官方与标准
+| 资源 | 说明 |
+|------|------|
+| [Anthropic Skills 官方仓库](https://github.com/anthropics/skills) | 官方技能库（docx/pdf/pptx/xlsx、webapp-testing、canvas-design、brand-guidelines 等） |
+| [Agent Skills 开放标准](https://agentskills.io/) | `SKILL.md` 规范、规格与客户端清单 |
+| [Claude Skills 文档](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | 官方技能总览与预置技能说明 |
 
-### 📰 研究助理
-> 自动搜索学术论文、总结研究进展、生成文献综述
->
-> **所需 MCP**：Tavily/Brave Search、Arxiv
-> **[查看模板 →](skills/research-assistant.md)**
+### 🧩 技能框架与综合集合
+| 名称 | 说明 |
+|------|------|
+| [obra/superpowers](https://github.com/obra/superpowers) | 完整软件开发方法论 + 可组合技能（规划→TDD→子代理→代码审查） |
+| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Claude 现成技能精选合集 |
+| [ningzimu/awesome-skills](https://github.com/ningzimu/awesome-skills) | 社区技能聚合库，按领域分类 |
 
-### 📧 邮箱管家
-> 智能分类邮件、自动回复常见问题、日程提醒
->
-> **所需 MCP**：Gmail、Google Calendar
-> **[查看模板 →](skills/email-assistant.md)**
+### ⚙️ 快速安装（Claude Code）
+```bash
+/plugin marketplace add anthropics/skills
+/plugin install document-skills@anthropic-agent-skills   # docx/pdf/pptx/xlsx
+```
 
-### 🌐 全栈开发助手
-> 前后端开发 + 数据库设计 + 部署上线一条龙
->
-> **所需 MCP**：GitHub、PostgreSQL、Vercel/AWS
-> **[查看模板 →](skills/fullstack-dev.md)**
-
-> 📁 更多模板请查看 [skills/](skills/) 目录
+> 📁 完整分类目录（官方技能、框架集合、技能市场、支持 Skills 的运行时）见 [skills/](skills/) 目录。
 
 ---
 

@@ -32,7 +32,7 @@
   - [Lifestyle](#lifestyle)
 - [🛠️ Agent Framework Integration](#️-agent-framework-integration)
 - [📚 Learning Resources](#-learning-resources)
-- [🎯 Featured Skill Templates](#-featured-skill-templates)
+- [🎁 Ready-Made Agent Skills](#-ready-made-agent-skills)
 - [🤝 Contributing](#-contributing)
 - [⭐ Star History](#-star-history)
 
@@ -201,35 +201,31 @@ Simply browse the categories below to find the skills you need, click links for 
 
 ---
 
-## 🎯 Featured Skill Templates
+## 🎁 Ready-Made Agent Skills
 
-We provide ready-to-use Skill templates — copy and use:
+Looking for **Agent Skills that others have already built and are ready to use**? No need to write them from scratch. Here are the top official and community sources:
 
-### 📝 Code Reviewer
-> Automatically review PRs, check code style, potential bugs, performance issues
->
-> **Required MCPs**: GitHub, Git
-> **[View Template →](skills/code-reviewer.md)**
+### 📚 Official & Standards
+| Resource | Description |
+|------|------|
+| [Anthropic Skills repo](https://github.com/anthropics/skills) | Official skill library (docx/pdf/pptx/xlsx, webapp-testing, canvas-design, brand-guidelines, etc.) |
+| [Agent Skills open standard](https://agentskills.io/) | `SKILL.md` spec, specification & client showcase |
+| [Claude Skills docs](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview) | Official skills overview & pre-built skills |
 
-### 📰 Research Assistant
-> Auto-search academic papers, summarize research progress, generate literature reviews
->
-> **Required MCPs**: Tavily/Brave Search, Arxiv
-> **[View Template →](skills/research-assistant.md)**
+### 🧩 Skill Frameworks & Collections
+| Name | Description |
+|------|------|
+| [obra/superpowers](https://github.com/obra/superpowers) | Complete dev methodology + composable skills (planning→TDD→subagents→code review) |
+| [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Curated list of ready-made Claude skills |
+| [ningzimu/awesome-skills](https://github.com/ningzimu/awesome-skills) | Community skill library, organized by domain |
 
-### 📧 Email Assistant
-> Smart email classification, auto-reply to FAQs, schedule reminders
->
-> **Required MCPs**: Gmail, Google Calendar
-> **[View Template →](skills/email-assistant.md)**
+### ⚙️ Quick Install (Claude Code)
+```bash
+/plugin marketplace add anthropics/skills
+/plugin install document-skills@anthropic-agent-skills   # docx/pdf/pptx/xlsx
+```
 
-### 🌐 Full-Stack Dev Assistant
-> End-to-end: frontend + backend + database design + deployment
->
-> **Required MCPs**: GitHub, PostgreSQL, Vercel/AWS
-> **[View Template →](skills/fullstack-dev.md)**
-
-> 📁 More templates in the [skills/](skills/) directory
+> 📁 Full categorized directory (official skills, frameworks, marketplaces, compatible runtimes) in the [skills/](skills/) directory.
 
 ---
 
