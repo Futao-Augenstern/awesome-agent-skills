@@ -219,6 +219,7 @@ tools = toolkit.get_tools()
 | [obra/superpowers](https://github.com/obra/superpowers) | 完整软件开发方法论 + 可组合技能（规划→TDD→子代理→代码审查） |
 | [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Claude 现成技能精选合集 |
 | [ningzimu/awesome-skills](https://github.com/ningzimu/awesome-skills) | 社区技能聚合库，按领域分类 |
+| [alapha888/agent-skills-en](https://github.com/alapha888/agent-skills-en) | 英文效率类 Agent Skills 合集：会议纪要、代码审查清单、深度研究框架、技术写作校对、Git 提交信息 |
 
 ### ⚙️ 快速安装（Claude Code）
 ```bash
