@@ -121,6 +121,7 @@ Simply browse the categories below to find the skills you need, click links for 
 | [Slack MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | Send messages, search, channel management | MCP Official | ⭐⭐⭐⭐ |
 | [Linear MCP](https://linear.app/docs/mcp) | Linear project management, issue tracking (official remote MCP) | Linear Official | ⭐⭐⭐⭐ |
 | [Todoist MCP](https://github.com/Doist/todoist-mcp) | Task management, todo sync | Doist Official | ⭐⭐⭐⭐ |
+| [Aident Loadout](https://github.com/Aident-AI/aident-skill) | Connect Codex, Claude Code, Cursor and other MCP clients to 1,000+ apps and 400+ Skills through one remote MCP setup | Aident AI | ⭐⭐⭐⭐ |
 
 ### Data & Search
 
