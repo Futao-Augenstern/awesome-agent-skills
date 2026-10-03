@@ -122,6 +122,7 @@ tools = toolkit.get_tools()
 | [Slack MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/slack) | 发送消息、搜索、频道管理 | MCP 官方 | ⭐⭐⭐⭐ |
 | [Linear MCP](https://linear.app/docs/mcp) | Linear 项目管理、Issue 追踪（官方远程 MCP） | Linear 官方 | ⭐⭐⭐⭐ |
 | [Todoist MCP](https://github.com/Doist/todoist-mcp) | 任务管理、待办事项同步 | Doist 官方 | ⭐⭐⭐⭐ |
+| [Aident Loadout](https://github.com/Aident-AI/aident-skill) | 通过一个远程 MCP，把 Codex、Claude Code、Cursor 等客户端接到 1,000+ 应用与 400+ Skills | Aident AI | ⭐⭐⭐⭐ |
 
 ### 数据与搜索
 
