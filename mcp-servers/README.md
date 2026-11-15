@@ -128,6 +128,7 @@
 - **Grammarly MCP** - 语法检查与写作建议
 - **Hemingway MCP** - 写作风格分析
 - **Translation MCP** - 多语言翻译
+- **[HumanPen MCP](https://github.com/humanpen/humanpen-mcp)** - 文档翻译、精简和引用格式校正；托管 API 按积分计费
 
 ### 社交媒体
 - **Twitter/X MCP** - Twitter 发帖、搜索、分析

@@ -142,6 +142,7 @@ Simply browse the categories below to find the skills you need, click links for 
 | [YouTube MCP](https://github.com/kevinwatt/yt-dlp-mcp) | YouTube video search, caption extraction | Community | ⭐⭐⭐⭐ |
 | [Markdown MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/markdown) | Markdown file read/write & processing | MCP Official | ⭐⭐⭐⭐ |
 | [MarkItDown MCP](https://github.com/microsoft/markitdown) | Convert PDF, Office, images to Markdown (MCP support) | Microsoft Official | ⭐⭐⭐⭐⭐ |
+| [HumanPen MCP](https://github.com/humanpen/humanpen-mcp) | Document translation, condensation and citation formatting; requires a credit-based hosted API | HumanPen Official | ⭐⭐⭐ |
 
 ### Cloud & DevOps
 

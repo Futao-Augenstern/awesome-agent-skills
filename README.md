@@ -143,6 +143,7 @@ tools = toolkit.get_tools()
 | [YouTube MCP](https://github.com/kevinwatt/yt-dlp-mcp) | YouTube 视频搜索、字幕提取 | 社区 | ⭐⭐⭐⭐ |
 | [Markdown MCP](https://github.com/modelcontextprotocol/servers/tree/main/src/markdown) | Markdown 文件读写与处理 | MCP 官方 | ⭐⭐⭐⭐ |
 | [MarkItDown MCP](https://github.com/microsoft/markitdown) | PDF、Office、图片等文件转 Markdown（支持 MCP） | Microsoft 官方 | ⭐⭐⭐⭐⭐ |
+| [HumanPen MCP](https://github.com/humanpen/humanpen-mcp) | 文档翻译、精简和引用格式校正；托管 API 按积分计费 | HumanPen 官方 | ⭐⭐⭐ |
 
 ### 云服务与 DevOps
 
